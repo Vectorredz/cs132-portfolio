@@ -1,0 +1,25 @@
+[
+    {
+        "title": "🇵🇭 Philippine Spam/ Scam SMS by BwandoWando",
+        "description": "This dataset contains SMS messages whose contents are considered to be spam and/or scams. The messages were collected from January 23, 2018 to August 27, 2025 and include sender info, timestamps, and message content.",
+        "author": "BwandoWando (2024)",
+        "timespan": "Jan 23, 2018 – Aug 27, 2025",
+        "size": "1,014 rows (.csv file)"
+    },
+    {
+        "title": "Tagalog-SMS by zero",
+        "description": "This dataset contains SMS messages received by the author from April 30, 2024 to April 13, 2025. The messages are categorized as spam, advertisements, government messages, notifications, and OTPs (one-time passwords).",
+        "author": "zero (2023)",
+        "timespan": "Apr 30, 2024 – Apr 13, 2025",
+        "size": "3,454 rows (.xlsx file)"
+    },
+    {
+        "title": "🇵🇭 PH Spam + Marketing SMS by Scott Lee Chua",
+        "description": "This dataset contains SMS messages received by the author from September 30, 2022 to June 24, 2025. Messages are categorized as spam, advertisements, government notifications, and OTPs.",
+        "author": "Scott Lee Chua (2023)",
+        "timespan": "Sep 30, 2022 – Jun 24, 2025",
+        "size": "6,249 rows (.csv file)"
+    }    
+
+
+]

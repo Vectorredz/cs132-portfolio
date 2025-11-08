@@ -1,0 +1,18 @@
+@import "./themes.css";
+@import "./components.css";
+@import "tailwindcss";
+/* App.css (or your stylesheet) */
+.two-column { display: flex; width: 100%; min-height: 100vh; overflow-x: hidden; }
+.left-col { width: 50%; position: sticky; top: 0; height: 100vh; padding: 3rem; background:#071028; color: #fff; box-sizing:border-box; }
+.right-col { width: 50%; padding: 3rem; box-sizing:border-box; }
+.pin-wrapper { height: 100vh; position: relative; overflow: visible; } /* visible area pinned */
+.inner-content { will-change: transform; overflow: visible; }
+.repo-iframe { width: 100%; height: 55vh; border-radius: 8px; border: 1px solid rgba(255,255,255,0.07); }
+
+/* hide any accidental scrollbar */
+.inner-content::-webkit-scrollbar { display: none; }
+
+.inset-shadow-indigo-500-sm {
+  box-shadow: inset 0 2px 4px rgba(99, 102, 241, 0.4);
+}
+

@@ -1,0 +1,35 @@
+[
+  {
+    "img": "vilar.jpg",
+    "name": "Louise Gabriel R. Vilar",
+    "context": "I'm currently a 3rd year BS Computer Science student at the University of the Philippines Diliman. I have a strong passion for full-stack development and UI/UX design, and I enjoy creating visually appealing and user-friendly web applications.",
+    "links": {
+      "github": "https://github.com/Vectorredz",
+      "linkedin": "https://www.linkedin.com/in/louise-gabriel-vilar-88a3122b9/"
+    }
+  },
+  {
+    "img": "barbon.png",
+    "name": "Alfonso Euri Barbon",
+    "context": "Third-year BS Computer Science Student in UP Diliman",
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/Euri43"
+    }
+  },
+  {
+    "img": "vilar.jpg",
+    "name": "Mansur Khalil Batistil",
+    "context": "Another example entry here — you can list more members like this.",
+    "links": {
+      "github": "https://github.com/example"
+    }
+  },
+  {
+    "img": "vilar.jpg",
+    "name": "Luise Antonio Sarmiento",
+    "context": "Another example entry here — you can list more members like this.",
+    "links": {
+      "github": "https://github.com/example"
+    }
+  }
+]

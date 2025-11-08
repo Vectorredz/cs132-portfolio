@@ -1,0 +1,83 @@
+[
+    {
+        "title": "Nutshell Plot",
+        "index": 0,
+        "fig1": {
+            "src": "boxplotmsglen.png",
+            "caption": "Figure 1. Histogram of Message Lengths (All Messages)",
+            "description": "The histogram shows that most SMS messages are relatively short, with a noticeable concentration below 200 characters. The right-skewed distribution suggests that while many texts are concise, a few longer informational messages (such as government alerts or reminders) extend the overall range."
+        },
+
+        "conclusion": "Because the p-value (2.76 × 10⁻¹⁴⁰) is far below the significance level (α = 0.05), we reject the null hypothesis (H₀). We conclude that there is a statistically significant difference in message length between spam and non-spam messages. This finding supports the hypothesis that spam messages are generally shorter, reflecting intentional linguistic patterns used by scammers to trigger quick user reactions. These insights can be used to develop machine learning features based on text length to help detect fraudulent SMS content in Philippine communication networks."
+    },
+    {
+        "title": "Research Question 1",
+        "index": 1,
+        "fig1": {
+            "src": "distmsglength.png",
+            "caption": "Figure 1. Histogram of Message Lengths (All Messages)",
+            "description": "The histogram shows that most SMS messages are relatively short, with a noticeable concentration below 200 characters. The right-skewed distribution suggests that while many texts are concise, a few longer informational messages (such as government alerts or reminders) extend the overall range."
+        },
+        "fig2": {
+            "src": "boxplotmsglength.png",
+            "caption": "Figure 2. Boxplot of Message Lengths by Category",
+            "description": "The boxplot shows a clear difference between spam and non-spam message lengths. Spam messages are generally shorter, with a median length of 124 characters compared to 153 for non-spam texts. This supports the hypothesis that scammers use brief, persuasive language to prompt immediate responses."
+        },
+        "fig3": {
+            "src": "violinmsglength.png",
+            "caption": "Figure 3. KDE Plot of Message Length Distributions",
+            "description": "The KDE plot highlights distinct peaks: spam messages cluster around 100–130 characters, while non-spam messages have a wider range centered near 170. This further confirms the statistical test results that spam messages are significantly shorter and more uniform in length."
+        },
+          "normalityCheck": {
+            "category": ["Spam", "Non-spam"],
+            "p-value": ["1.10 × 10⁻²⁸", "1.67 × 10⁻¹⁸"],
+            "normality": ["Not normal", "Not normal"],
+            "conclusion": "Since both groups violate normality assumptions (p < 0.05), a non-parametric test was chosen."
+        },
+        "statisticalTest": {
+            "Metric": "Message Lengths",
+            "U-statistics": "2,738,224",
+            "p-value": "2.76 × 10⁻¹⁴⁰",
+            "alpha": "0.05",
+            "Decision": "Reject H_0",
+            "conclusion": "The Mann–Whitney U Test indicates a highly significant difference (p < 0.001) between the lengths of spam and non-spam SMS messages. On average, spam messages are shorter (mean = 126.7 chars) than non-spam ones (mean = 177.9 chars). These findings suggest scammers intentionally use shorter messages for quicker engagement and to mimic legitimate alerts."
+        },
+        "conclusion": "Because the p-value (2.76 × 10⁻¹⁴⁰) is far below the significance level (α = 0.05), we reject the null hypothesis (H₀). We conclude that there is a statistically significant difference in message length between spam and non-spam messages. This finding supports the hypothesis that spam messages are generally shorter, reflecting intentional linguistic patterns used by scammers to trigger quick user reactions. These insights can be used to develop machine learning features based on text length to help detect fraudulent SMS content in Philippine communication networks."
+    },
+    {
+        "title": "Research Question 2",
+        "index": 2,
+        "fig1": {
+            "src": "boxplotmsglen.png",
+            "caption": "Figure 1. Histogram of Message Lengths (All Messages)",
+            "description": "The histogram shows that most SMS messages are relatively short, with a noticeable concentration below 200 characters. The right-skewed distribution suggests that while many texts are concise, a few longer informational messages (such as government alerts or reminders) extend the overall range."
+        },
+        "fig2": {
+            "src": "distmsglen.png",
+            "caption": "Figure 2. Boxplot of Message Lengths by Category",
+            "description": "The boxplot shows a clear difference between spam and non-spam message lengths. Spam messages are generally shorter, with a median length of 124 characters compared to 153 for non-spam texts. This supports the hypothesis that scammers use brief, persuasive language to prompt immediate responses."
+        },
+          "fig3": {
+            "src": "violinmsglength.png",
+            "caption": "Figure 3. KDE Plot of Message Length Distributions",
+            "description": "The KDE plot highlights distinct peaks: spam messages cluster around 100–130 characters, while non-spam messages have a wider range centered near 170. This further confirms the statistical test results that spam messages are significantly shorter and more uniform in length."
+        },
+        "normalityCheck": {
+            "category": ["Spam", "Non-spam"],
+            "p-value": ["1.10 × 10⁻²⁸", "1.67 × 10⁻¹⁸"],
+            "normality": ["Not normal", "Not normal"],
+            "conclusion": "Since both groups violate normality assumptions (p < 0.05), a non-parametric test was chosen."
+        },
+        "statisticalTest": {
+            "Metric": "Message Lengths",
+            "U-statistics": "2,738,224",
+            "p-value": "2.76 × 10⁻¹⁴⁰",
+            "alpha": "0.05",
+            "Decision": "Reject H_0",
+            "conclusion": "The Mann–Whitney U Test indicates a highly significant difference (p < 0.001) between the lengths of spam and non-spam SMS messages. On average, spam messages are shorter (mean = 126.7 chars) than non-spam ones (mean = 177.9 chars). These findings suggest scammers intentionally use shorter messages for quicker engagement and to mimic legitimate alerts."
+        },
+        
+        "conclusion": "Because the p-value (2.76 × 10⁻¹⁴⁰) is far below the significance level (α = 0.05), we reject the null hypothesis (H₀). We conclude that there is a statistically significant difference in message length between spam and non-spam messages. This finding supports the hypothesis that spam messages are generally shorter, reflecting intentional linguistic patterns used by scammers to trigger quick user reactions. These insights can be used to develop machine learning features based on text length to help detect fraudulent SMS content in Philippine communication networks."
+
+    }
+]
