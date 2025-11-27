@@ -1,6 +1,6 @@
 import "../src/styles/app.css"
 
-function Nav({onScrollToDatasets, onScrollToOverview, onScrollToAboutUs}) {
+function Nav({onScrollToDatasets, onScrollToOverview, onScrollToAboutUs, onScrollToMethod}) {
     return (
     <>
   <nav className="flex flex-row justify-center fixed w-full z-10 bg-white shadow-lg/10">
@@ -9,7 +9,7 @@ function Nav({onScrollToDatasets, onScrollToOverview, onScrollToAboutUs}) {
     <img src="logo.png" className="h-15" alt="Site logo" />
     <button onClick={onScrollToOverview} className="navitem">Overview</button>
     <button onClick={onScrollToDatasets} className="navitem">Data Collection</button>
-    <button className="navitem">Data Analysis</button>
+    <button onClick={onScrollToMethod} className="navitem">Data Analysis</button>
     <button className="navitem">ML Modelling</button>
     <button onClick={onScrollToAboutUs} className="navitem">About Us</button>
   </div>

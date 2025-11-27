@@ -10,9 +10,7 @@ function Dataset({ dataSetsRef }) {
         <div className="sticky top-24 p-6 rounded-lg text-6xl text-accent-1 font-bebas-neue">
           <h1 className="overview-text">Dataset Collection</h1>
           <p className="mt-4 text-base leading-relaxed text-gray-700">
-            The dataset was compiled by scraping over 1,500 posts from
-            Philippine-based subreddits, using keywords related to LGBTQ+
-            issues and various expressions of homophobia as search terms.
+            Our research utilizes data from three publicly available datasets sourced from Kaggle, each containing collections of SMS messages relevant to spam and fraud detection within the Philippines. These datasets were combined and preprocessed to form a unified corpus for machine learning analysis.
           </p>
         </div>
       </div>

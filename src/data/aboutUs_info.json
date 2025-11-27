@@ -2,7 +2,7 @@
   {
     "img": "vilar.jpg",
     "name": "Louise Gabriel R. Vilar",
-    "context": "I'm currently a 3rd year BS Computer Science student at the University of the Philippines Diliman. I have a strong passion for full-stack development and UI/UX design, and I enjoy creating visually appealing and user-friendly web applications.",
+    "context": "Hi I'm Louise, currently a 3rd year BS Computer Science student at the University of the Philippines Diliman. I have a strong passion for full-stack development and UI/UX design, and I enjoy creating visually appealing and user-friendly web applications.",
     "links": {
       "github": "https://github.com/Vectorredz",
       "linkedin": "https://www.linkedin.com/in/louise-gabriel-vilar-88a3122b9/"
@@ -11,23 +11,23 @@
   {
     "img": "barbon.png",
     "name": "Alfonso Euri Barbon",
-    "context": "Third-year BS Computer Science Student in UP Diliman",
+    "context": "Hello! I'm Euri, a third-year BS Computer Science Student in UP Diliman. My research interests include AI, Internet of Things, and Machine Learning. When I'm bored, I like playing basketball and watching tech videos on YouTube.",
     "links": {
       "linkedin": "https://www.linkedin.com/in/Euri43"
     }
   },
   {
-    "img": "vilar.jpg",
+    "img": "batistil.png",
     "name": "Mansur Khalil Batistil",
-    "context": "Another example entry here — you can list more members like this.",
+    "context": "Hi! I'm Mansur, a third-year BS Computer Science Student in UP DIliman. My research interests include Computer Security and Internet of Things. I have a huge passion for gaming and making use of programming for optimizing and theorycrafting my favorite games",
     "links": {
-      "github": "https://github.com/example"
+      "github": "https://github.com/Miriitode"
     }
   },
   {
-    "img": "vilar.jpg",
-    "name": "Luise Antonio Sarmiento",
-    "context": "Another example entry here — you can list more members like this.",
+    "img": "sarmiento.png",
+    "name": "Luis Antonio Sarmiento",
+    "context": "Hello! I am Luis, a third-year BS Computer Science student at UP Diliman. I enjoy playing instruments, cooking, and playing video games. My research interests include music technology, game development, as well as cybersecurity.",
     "links": {
       "github": "https://github.com/example"
     }

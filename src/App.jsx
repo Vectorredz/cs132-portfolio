@@ -14,6 +14,7 @@ function App() {
   const dataSetsRef = useRef(null);
   const overviewRef = useRef(null);  
   const aboutUsRef = useRef(null);
+  const methodRef = useRef(null);
   const scrollToSection = (ref) => {
     ref.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -22,13 +23,15 @@ function App() {
     <>
       <Nav
         onScrollToDatasets={()=>scrollToSection(dataSetsRef)}
-        onScrollToOverview={()=>scrollToSection(overviewRef)} // passes the pointer to a function that anon calls scroll to convert the current reference to ref
+        onScrollToOverview={()=>scrollToSection(overviewRef)} // passes the pointer to a function that anon calls scroll to convert the current reference to 
         onScrollToAboutUs={()=>scrollToSection(aboutUsRef)}
-      />
+        onScrollToMethod={()=>scrollToSection(methodRef)}
+
+/>
       <Hero />
       <Overview overviewRef={overviewRef} />
       <Dataset dataSetsRef={dataSetsRef} />
-      <Methodology />
+      <Methodology methodRef={methodRef} />
       <Conclusion />
       <AboutUs aboutUsRef={aboutUsRef}/>
       <Footer />

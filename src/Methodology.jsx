@@ -3,7 +3,7 @@ import { useState } from "react";
 import edaInfo from "./data/eda_info.json";
 import Carousel from "./carousel.jsx";
 
-function Methodology() {
+function Methodology({methodRef}) {
   const [toggle, setToggle] = useState(0);
 
   function updateToggle(idx) {
@@ -11,14 +11,14 @@ function Methodology() {
   }
 
   return (
-    <section className="flex flex-col items-center justify-center bg-2 text-black px-10 py-12">
+    <section ref={methodRef} className="flex flex-col items-center justify-center bg-2 text-black px-10 py-12">
       <div className="w-full max-w-7xl">
         <h1 className="overview-text text-white mb-6 text-center">
           Exploratory Data Analysis
         </h1>
 
         {/* --- Methods --- */}
-        <h2 className="text-white p-2 font-bebas-neue text-5xl ">Methods</h2>
+        <h2 className="text-white p-2 font-bebas-neue text-4xl ">Methods</h2>
         <div>
           <div className="mb-8 text-gray-200 max-w-3xl">
             <p>
@@ -46,7 +46,7 @@ function Methodology() {
           {/* --- Tab Buttons --- */}
           <div className="top-24 z-20 bg-white border-b rounded-t-xl overflow-hidden">
             <div className=" bg-orange-400 py-5 rounded-t-xl">
-              <h2 className="text-white font-bebas-neue text-5xl px-5">Results</h2>
+              <h2 className="text-white font-bebas-neue text-4xl px-5">Results</h2>
             </div>
             <ul className="flex gap-4 px-4 py-3 overflow-x-auto no-scrollbar">
               <li
